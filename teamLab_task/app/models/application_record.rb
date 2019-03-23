@@ -4,7 +4,7 @@ ActiveRecord::Base.establish_connection(
    :adapter => 'mysql2',
    :host => 'localhost',
    :username => 'root',
-   :password => 'iTdBhF08SBslOjU1',
+   :password => '8hT9EiSytu7hP2aF',
    :database => 'product'
  )
 

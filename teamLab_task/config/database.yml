@@ -14,7 +14,7 @@ default: &default
   encoding: utf8
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   username: root
-  password: iTdBhF08SBslOjU1
+  password: 8hT9EiSytu7hP2aF
   host: localhost
 
 development:
@@ -51,4 +51,4 @@ production:
   <<: *default
   database: product
   username: root
-  password: iTdBhF08SBslOjU1
+  password: 8hT9EiSytu7hP2aF
