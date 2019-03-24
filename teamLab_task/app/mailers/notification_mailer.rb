@@ -1,11 +1,11 @@
-class NotificationMailer < ActionMailer::Base
+class NotificationMailer < ApplicationMailer
   default from: "takasshi0425@gmail.com"
 
-  def send_confirm_to_user(user)
-    @user = user
+  def send_confirm(msg)
+    @msg = msg
     mail(
-      subject: "会員登録が完了しました。" #メールのタイトル,
-      to: @user.email #宛先
+      subject: '商品集計', #メールのタイトル,
+      to: 'takasshi0425@gmail.com' #宛先
     ) do |format|
       format.text
     end
